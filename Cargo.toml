@@ -1,0 +1,16 @@
+[package]
+name = "chip8-emu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+minifb = "0.25"
+rand = "0.8"
+
+[lib]
+name = "chip8_emu"
+path = "src/lib.rs"
+
+[[bin]]
+name = "chip8_emu"
+path = "src/main.rs"
